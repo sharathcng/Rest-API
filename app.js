@@ -36,8 +36,10 @@ mongoose.connect(
 //   client.close();
 // });
 
+
+const PORT = process.env.PORT || 5000;
 //Start listening
-app.listen('https://kind-cyan-bluefish-tam.cyclic.app/')
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
 
