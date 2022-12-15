@@ -4,7 +4,7 @@
   "description": "Rest API using node.js and mongoDB",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "app.js"
   },
   "author": "Sharath HG",
   "license": "ISC",
